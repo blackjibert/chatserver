@@ -12,6 +12,12 @@
 - 5、使用 mysql 数据库实现项目数据的持久化。
 - 6、使用连接池提高数据库的数据存取能力。
 
+### 启动
+- nginx: 
+- cd /usr/local/nginx/sbin/
+- ./nginx 
+- mysql
+- redis
 
 ### muduo库简介
 - 高性能：muduo库采用了epoll+多线程的设计，可以充分发挥多核处理器的性能，提高服务器的并发处理能力。
