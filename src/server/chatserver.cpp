@@ -10,7 +10,7 @@ using namespace placeholders;
 using json = nlohmann::json;
 
 // 初始化聊天服务器对象
-ChatServer::ChatServer(EventLoop *loop,
+ChatServer::ChatServer(EventLoop* loop,
                        const InetAddress &listenAddr,
                        const string &nameArg)
     : _server(loop, listenAddr, nameArg), _loop(loop)
